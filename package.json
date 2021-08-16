@@ -1,0 +1,20 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "keywords": [],
+  "author": "Ronald Amiquero",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.3.5"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
