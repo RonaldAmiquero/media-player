@@ -4,6 +4,46 @@
     <title>PlatziMediaPlayer.js</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="./assets/index.css" />
+    <style>
+      .ads {
+        padding: 4px;
+        padding-right: 8px;
+        background: white;
+        width: 80%;
+
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .ads__link {
+        display: flex;
+        color: inherit;
+        text-decoration: inherit;
+      }
+
+      .ads__img {
+        width: 80px;
+        min-width: 80px;
+        height: 80px;
+        margin-right: 16px;
+      }
+
+      .ads__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .ads__title {
+        margin: 0;
+      }
+
+      .ads__body {
+        margin: 0;
+      }
+    </style>
   </head>
 
   <body>
@@ -13,7 +53,7 @@
     </header>
 
     <main class="container">
-      <video class="movie">
+      <video class="movie" controls>
         <source src="./assets/BigBuckBunny.mp4" />
       </video>
 
@@ -69,7 +109,7 @@
       </p>
     </main>
 
-    <script type="module" src="/assets/index.js">
+    <script type="module" src="/assets/index.ts">
     </script>
   </body>
 
